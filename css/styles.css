@@ -1,0 +1,299 @@
+body{
+	color: #696969;
+	font-size: 14px;
+	font-family: calibri;
+	margin:0;
+	padding:0;
+}
+
+
+/* ----------- HEADER -----------*/
+
+
+#header{
+	background:#353A40;
+	height: 112px;
+	margin: 0;
+}
+
+/* ----------- LOGO -----------*/
+
+#logo{
+	width: 1230px;
+	margin: 0 auto;
+	padding: 0;
+}
+
+#logo a {
+	width:170px;
+	font-size: 30px;
+	float:left;
+}
+
+#logo a.brand {
+	margin-top:25px;
+}
+
+
+/* ----------- MENU -----------*/
+
+#menu{
+	float: left;
+	margin-top:45px;
+}
+
+#menu ul{
+	margin:0;
+	padding:0;
+	padding-left: 620px;
+}
+
+#menu ul li{
+	list-style: none;
+	font-size:18px;
+	color:white;
+	float: left;
+	margin: 0 13px;
+	text-align:center;
+
+}
+
+#menu ul li a{
+	text-decoration:none;
+	color:white;
+}
+
+#menu ul li .active{
+	color:#bbb;
+}
+
+
+#menu ul li:hover .active{
+	color:#fff;
+}
+
+
+/* ----------- CARROUSEL -----------*/
+
+.container {
+  margin: 0 auto;
+}
+.carrousel {
+  height: 620px;
+  overflow: hidden;
+  position: relative;
+  background: #fff;
+}
+.slider {
+  display: flex;
+  height: 100%;
+  width: 400%;
+}
+.slider section {
+  flex-basis: 100%;
+  justify-content: center;
+  align-items: center;
+  display: flex;
+  font-size: 20px;
+}
+
+#lesslides{
+	width: 5328px;
+	margin: 0 -1px;
+	padding: 0;
+}
+
+#lesslides a {
+	font-size: 260px;
+	float:left;
+}
+
+
+/* ----------- FLECHE -----------*/
+
+.left, .right {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  cursor: pointer;
+}
+.arrow i {
+  font-size: 70px;
+  -webkit-user-select: none;
+  color: #416be4;
+}
+.left {
+  left: 10px;
+}
+.right {
+  right: 10px;
+}
+
+
+/* ----------- LEGENDE -----------*/
+
+.legende{
+    width: 950px;
+    height: 190px;
+    background: rgba(12, 16, 138, 0.5);
+    color: #fff;
+    top: 80%;
+    left: 51.5%;
+    position: absolute;
+    transform: translate(-50%,-50%);
+    box-sizing: border-box;
+    padding: 70px 30px;
+}
+
+.legende h1{
+    margin: 8px;
+    padding: 0;
+    font-size: 56px;
+    font-weight: normal;
+    margin-top: -34px;
+    margin-left: 199px;
+}
+
+.legende p{
+    padding: 0;
+    font-size: 20px;
+    margin-top: -8px;
+    margin-left: 153px;    
+}
+
+.control ul {
+  list-style: none;
+  display: flex;
+  position: absolute;
+  bottom: 0;
+  left: 50%;
+  margin: 0;
+  padding: 0;
+  transform: translate(-50%);
+}
+
+.control ul li {
+  width: 13px;
+  height: 13px;
+  background: #d48f8f;
+  border-radius: 50px;
+  margin: 10px;
+  cursor: pointer;
+}
+.control ul li.selected {
+  background: #f2f2f2;
+}
+
+/* ----------- ACCUEIL -----------*/
+
+.articles{
+	float:left;
+	padding:0 37px;
+	margin-top: 43px;
+    font-size: 19px;
+    color: black;
+    margin-bottom: 17px;
+}
+
+
+.articles p{
+		
+	padding:0;
+	margin:-7px 0 10px 14px;
+	font-size:54px;
+	color:#353A40;
+	font-style:normal;
+}
+
+
+/* ----------- BLOC TEXTE -----------*/
+
+.Bloc {
+  border: 2px solid #CACACA;
+  position: relative;
+  border-radius: 9px;
+  display: flex;
+  height: 421px;
+  width: 29.5%;
+  left: 0.2%;
+  float: left;
+  margin-left: 35px;
+}
+
+
+
+.Bloc section {
+  color: black;
+  justify-content: center;
+  align-items: center;
+  font-size: 20px;
+  margin: 10px 20px 32px 20px;
+}
+
+.Bloc section p {
+    margin: 6px 0px 31px 18px;
+    font-size: 42px;
+    color: #353A40;
+    font-style: normal;
+}
+
+.Bloc section p img {
+    width: 50px;
+    margin: -11px 2px;
+}
+
+.Bloc section p a img {
+    width: 50px;
+    margin: -3px 2px;
+}
+.Bloc section hr{
+	border:none;
+	border-top:2px solid #CACACA;
+	margin-left:-20px;
+    margin-right: -20px;
+}
+
+.Bloc input{
+	width:205px;
+	height:30px;
+	color:#696969;
+	padding-left:15px;
+}
+
+.Bloc .infos{
+	width: 174px;
+    height: 50px;
+    padding: 0;
+    margin: 10px 0 0 93px;
+	color: white;
+    background: #9380de;
+	border:none;
+	font-size:19px;
+	border-radius: 9px;
+}
+
+.clear{
+	clear:both;
+}
+
+/* ----------- FOOTER -----------*/
+
+#footer{
+	margin-top:66px;
+	text-align:center;
+	background:#353A40;
+	height: 115px;
+
+}
+
+#footer p{
+	color:white;
+	font-size: 20px;
+}
+
+#footer p a {
+	color:white;
+	font-weight:bold;
+	font-family: unset;
+
+}
